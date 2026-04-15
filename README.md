@@ -36,12 +36,12 @@ A continuación se presentan las capturas de pantalla que demuestran el análisi
 ### 1. Escaneo de Red con Nmap
 En esta fase se realizó un escaneo para identificar puertos abiertos en el host objetivo. Se detectó que únicamente el puerto **22 (SSH)** se encuentra activo, validando la reducción de la superficie de ataque.
 
-![Escaneo de Nmap - Puerto 22](./img/nmap_attack_surface_scan.png)
+![Escaneo de Nmap - Puerto 22](./img/evidencia-nmap-ssh.png)
 
 ### 2. Análisis de Tráfico con Tshark
 Tras identificar el servicio SSH, se procedió a capturar y analizar el tráfico. En la imagen se observa el intercambio de paquetes cifrados entre el cliente y el servidor, garantizando la privacidad de la sesión.
 
-![Análisis de Tráfico Tshark](./img/ssh_traffic_encryption_v2.3.png)
+![Análisis de Tráfico Tshark](./img/evidencia-tshark-ssh.png)
 
 ---
 
